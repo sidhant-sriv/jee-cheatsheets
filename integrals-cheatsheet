@@ -70,19 +70,6 @@
 \begin{equation}
 \int \sec x \tan x \dx = \sec x + C
 \end{equation}
-
-\begin{equation}
-\int \frac{a}{a^2+x^2}\dx = \tan^{-1}\frac{x}{a} + C
-\end{equation}
-\subsection{Logarithmic integrals}
-\begin{equation}
-\int \frac{1}{x}\dx = \ln |x| + C
-\end{equation}
-
-\begin{equation}
-\int \frac{a}{a^2-x^2}\dx = \frac{1}{2}\ln\left|\frac{x+a}{x-a}\right| + C
-\end{equation}
-
 \begin{equation}
 \int \frac{1}{\sqrt{a^2-x^2}} \dx = \sin^{-1} \frac{x}{a} + C
 \end{equation}
@@ -98,6 +85,19 @@
 \begin{align}
 \int \frac{1}{\sqrt{x^2+a^2}} \dx &= \sinh^{-1} \frac{x}{a} \\&=\nonumber \ln (x+\sqrt{x^2+a^2}) + C
 \end{align}
+
+\begin{equation}
+\int \frac{a}{a^2+x^2}\dx = \tan^{-1}\frac{x}{a} + C
+\end{equation}
+\subsection{Logarithmic integrals}
+\begin{equation}
+\int \frac{1}{x}\dx = \ln |x| + C
+\end{equation}
+
+\begin{equation}
+\int \frac{a}{a^2-x^2}\dx = \frac{1}{2}\ln\left|\frac{x+a}{x-a}\right| + C
+\end{equation}
+
 \onecolumn
 
 \end{multicols}
