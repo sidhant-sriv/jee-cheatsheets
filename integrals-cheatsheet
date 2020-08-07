@@ -11,10 +11,11 @@
 
 \newcommand{\dx}{\hspace{2pt}dx}
 \newcommand{\dd}[1]{\hspace{2pt}d#1}
+\newcommand{\cp}{\hspace{2pt}+ C}
 \usepackage{multicol}
 
 \begin{document}
-\pagestyle{plain}
+\pagestyle{empty}
 \pagenumbering{roman}
 \maketitle
 
@@ -23,83 +24,84 @@
 \subsection{Standard integrals}
 % int 1
 \begin{equation}
-\int x^n \dx = \frac{1}{n+1}x^{n+1} + C, \hspace{1ex} n\neq-1
+\int x^n \dx = \frac{1}{n+1}x^{n+1} \cp, \hspace{1ex} n\neq-1
 \end{equation}
 
 
 
 \begin{equation}
-\int u \hspace{2pt} \dd{v} = uv - \int v du + C
+\int u \hspace{2pt} \dd{v} = uv - \int v du \cp
 \end{equation}
 
 
 
 \begin{equation}
-\int e^x \dx = e^x + C
+\int e^x \dx = e^x \cp
 \end{equation}
 
 \begin{equation}
-\int a^x \dx = \frac{1}{\ln a} a^x + C
+\int a^x \dx = \frac{1}{\ln a} a^x \cp
 \end{equation}
 
 \begin{equation}
-\int \ln x \dx = x \ln x - x + C
+\int \ln x \dx = x \ln x - x \cp
 \end{equation}
 \subsection{Trig integrals}
 
 \begin{equation}
-\int \sin x \dx = -\cos x + C
+\int \sin x \dx = -\cos x \cp
 \end{equation}
 
 \begin{equation}
-\int \cos x \dx = \sin x + C
+\int \cos x \dx = \sin x \cp
 \end{equation}
 
 \begin{equation}
-\int \tan x \dx = \ln |\sec x|  + C
+\int \tan x \dx = \ln |\sec x|  \cp
 \end{equation}
 
 \begin{equation}
-\int \sec x \dx = \ln |\sec x + \tan x| + C
+\int \sec x \dx = \ln |\sec x + \tan x| \cp
 \end{equation}
 
 \begin{equation}
-\int \sec^2 x \dx = \tan x + C
+\int \sec^2 x \dx = \tan x \cp
 \end{equation}
 
 \begin{equation}
-\int \sec x \tan x \dx = \sec x + C
-\end{equation}
-\begin{equation}
-\int \frac{1}{\sqrt{a^2-x^2}} \dx = \sin^{-1} \frac{x}{a} + C
+\int \sec x \tan x \dx = \sec x \cp
 \end{equation}
 
 \begin{equation}
-\int \frac{a}{x \sqrt{x^2-a^2}} \dx = \sec^{-1} \frac{x}{a} + C
-\end{equation}
-
-\begin{align}
-\int \frac{1}{\sqrt{x^2-a^2}} \dx &= \cosh^{-1} \frac{x}{a} \\&= \nonumber \ln (x+\sqrt{x^2-a^2}) + C
-\end{align}
-
-\begin{align}
-\int \frac{1}{\sqrt{x^2+a^2}} \dx &= \sinh^{-1} \frac{x}{a} \\&=\nonumber \ln (x+\sqrt{x^2+a^2}) + C
-\end{align}
-
-\begin{equation}
-\int \frac{a}{a^2+x^2}\dx = \tan^{-1}\frac{x}{a} + C
+\int \frac{a}{a^2+x^2}\dx = \tan^{-1}\frac{x}{a} \cp
 \end{equation}
 \subsection{Logarithmic integrals}
 \begin{equation}
-\int \frac{1}{x}\dx = \ln |x| + C
+\int \frac{1}{x}\dx = \ln |x| \cp
 \end{equation}
 
 \begin{equation}
-\int \frac{a}{a^2-x^2}\dx = \frac{1}{2}\ln\left|\frac{x+a}{x-a}\right| + C
+\int \frac{a}{a^2-x^2}\dx = \frac{1}{2}\ln\left|\frac{x+a}{x-a}\right| \cp
 \end{equation}
 
+\begin{equation}
+\int \frac{1}{\sqrt{a^2-x^2}} \dx = \sin^{-1} \frac{x}{a} \cp
+\end{equation}
+
+\begin{equation}
+\int \frac{a}{x \sqrt{x^2-a^2}} \dx = \sec^{-1} \frac{x}{a} \cp
+\end{equation}
+
+\begin{align}
+\int \frac{1}{\sqrt{x^2-a^2}} \dx &= \cosh^{-1} \frac{x}{a} \\&= \nonumber \ln (x+\sqrt{x^2-a^2}) \cp
+\end{align}
+
+\begin{align}
+\int \frac{1}{\sqrt{x^2+a^2}} \dx &= \sinh^{-1} \frac{x}{a} \\&=\nonumber \ln (x+\sqrt{x^2+a^2}) \cp
+\end{align}
 \onecolumn
 
 \end{multicols}
 
+\end{document}
 \end{document}
