@@ -28,11 +28,6 @@
 \begin{document}
 \pagestyle{empty}
 
-\begin{center}
-\section*{Table of Basic Integrals\footnote{\copyright 2014. From  \url{http://integral-table.com}, last revised \today. This material 
-is provided as is without warranty or representation about the accuracy, correctness or suitability of this material for any purpose. This work is licensed under the Creative Commons Attribution-Noncommercial-ShareAlike United States License. }
-}
-\end{center}
 
 \begin{multicols}{2}
 
